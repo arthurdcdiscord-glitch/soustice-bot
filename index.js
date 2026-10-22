@@ -1317,35 +1317,7 @@ client.on('interactionCreate', async function (interacao) {
 //  SERVIDOR HTTP (conecta com o site depois) — /api/stats
 //  Depois: hospedar na Render/Discloud e colocar a URL no site
 // ============================================================
-const PORTA = process.env.PORT || 3000;
-const servidorWeb = http.createServer(function (req, res) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Content-Type', 'application/json; charset=utf-8');
-  if (req.url === '/api/stats' || req.url === '/') {
-    const ranking = Object.entries(DADOS.ponto.total_horas || {})
-      .sort(function (a, b) { return b[1] - a[1]; })
-      .slice(0, 10)
-      .map(function (e) {
-        return {
-                    usuario: (client.users.cache.get(e[0]) && client.users.cache.get(e[0]).username) || ('<@' + e[0] + '>'),
-          horas: formatarTempo(e[1]),
-          equipe: (DADOS.set.setados && DADOS.set.setados[e[0]]) || '—'
-        };
-      });
-    const resposta = {
-      servidores: client.guilds.cache.size,
-      usuarios: client.guilds.cache.reduce(function (soma, g) { return soma + g.memberCount; }, 0),
-      ranking: ranking
-    };
-    res.end(JSON.stringify(resposta));
-  } else {
-    res.statusCode = 404;
-    res.end(JSON.stringify({ erro: 'não encontrado' }));
-  }
-});
-servidorWeb.listen(PORTA, function () {
-  console.log('🌐 Servidor de stats ligado na porta ' + PORTA + ' — acesse /api/stats');
-});
+
 // ============================================================
 
 client.login(TOKEN).catch(function (e) { console.error('❌ Erro no login:', e.message); });
