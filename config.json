@@ -1,0 +1,60 @@
+{
+  "bot": {
+    "nome": "SOUSTICE",
+    "versao": "0.0.1",
+    "cor_destaque": "7c5cff",
+    "url_site": "https://seu-site-aqui.com",
+    "embed_painel_titulo": "⏱️ Bate-Ponto TDMM",
+    "embed_painel_descricao": "Bota seu ponto para Subir de patene\nE receber recompensas dentro da EQP!",
+    "thumbnail_url": ""
+  },
+  "servidor_id": "1560722040602890442",
+  "cargo_confiavel": "1560722041022451806",
+  "descricao_bot": "Sistema de gerenciamento de equipes e controle de presença.",
+  "ponto": {
+    "ativo": true,
+    "canal_logs_inicio_fim": "1560736281279991987",
+    "canal_logs_pausas": "1560736281279991987",
+    "canal_logs_cancelados": "1560736281279991987",
+    "canal_painel_publico": "1560735118690353252",
+    "tempo_pausa_maxima_segundos": 300,
+    "banner_painel_publico": "https://cdn.discordapp.com/attachments/1550309966244749363/1562294948227711037/standard_4.gif?ex=6ad9780d&is=6ad8268d&hm=752ea7462c69e654f6472e8aae6674ddd7c3403b5b48cb4aa940e5160c672841&",
+    "banner_inicio": "",
+    "banner_fim": "",
+    "cargos_permitidos": [],
+    "menu_placeholder": "Selecione uma opção",
+    "menu_opcoes": [
+      {
+        "label": "Iniciar Ponto",
+        "valor": "iniciar"
+      },
+      {
+        "label": "Ver Ranking",
+        "valor": "ranking"
+      }
+    ],
+    "canal_painel": "1560735118690353252",
+    "tempo_pausa_maxima_minutos": 60
+  },
+  "set": {
+    "ativo": true,
+    "cargos_setagem": [
+      "1560722041022451807"
+    ],
+    "canal_logs": "1560736281279991987",
+    "canal_painel": "1560722046109884580",
+    "equipes": [
+      {
+        "nome": "TDMM",
+        "eqps": [
+          "Eqp1"
+        ]
+      }
+    ],
+    "expiracao_horas": 5,
+    "embed_titulo": "📋 Solicitar SET",
+    "embed_descricao": "Clique no botão abaixo para solicitar uma setagem.",
+    "banner": "",
+    "botao_label": "📋 Pedir Set"
+  }
+}

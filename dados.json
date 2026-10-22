@@ -1,0 +1,50 @@
+{
+  "ponto": {
+    "sessoes": {},
+    "total_horas": {
+      "1323717789042606151": 3444995,
+      "1416961216076578888": 32593
+    },
+    "ultima_mensagem_ranking_id": null
+  },
+  "set": {
+    "solicitacoes": {
+      "idv64k": {
+        "id": "idv64k",
+        "solicitante_id": "1323717789042606151",
+        "setador_id": "1323717789042606151",
+        "equipe_texto": "EQP 1 \"TDMM\"",
+        "roblox": {
+          "id": 2912835399,
+          "nome": "Alvaro_Arthur07",
+          "displayName": "mitsuki",
+          "headshot": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-8DFAC70695059D7AC8A502C47C6F0562-Png/150/150/AvatarHeadshot/Png/noFilter"
+        },
+        "criado_em": 1792614042604,
+        "expira_em": 1792632042604,
+        "status": "setado",
+        "respondido_por": "1323717789042606151",
+        "canal_logs_id": "1560736281279991987",
+        "msg_logs_id": "1562561287433748612"
+      },
+      "5bay5d": {
+        "id": "5bay5d",
+        "solicitante_id": "1504543905788723302",
+        "setador_id": "1323717789042606151",
+        "equipe_texto": "EQP 1 \"TDMM\"",
+        "roblox": {
+          "id": 8133794367,
+          "nome": "Ribeiro_chatin01",
+          "displayName": "Ghost02",
+          "headshot": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-2B3501A19091DDA2E2E03ACA85E14F62-Png/150/150/AvatarHeadshot/Png/noFilter"
+        },
+        "criado_em": 1792614485899,
+        "expira_em": 1792632485899,
+        "status": "setado",
+        "respondido_por": "1323717789042606151",
+        "canal_logs_id": "1560736281279991987",
+        "msg_logs_id": "1562563146462396489"
+      }
+    }
+  }
+}
